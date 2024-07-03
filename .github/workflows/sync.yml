@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Send GET Request
-      uses: wei/curl@v1.4.0
+      uses: wei/curl@master
       with:
         args: '-X GET https://qwen-free-api-1kmu.onrender.com/ping'
